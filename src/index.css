@@ -1,0 +1,38 @@
+.App{
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+.header{
+    padding: 2%;
+}
+.Navbar{
+    
+    flex-direction: row;
+    margin-top: 5px;
+}
+.Navbar div{
+    display: inline-block !important;
+    padding: 1% ;
+}
+
+#root > div > div:nth-child(14) > h3{
+    padding-bottom: 20px;
+}
+
+html, body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    border-radius: 5px; 
+    padding: 50px;
+}
+
+#root > div > div.Navbar > h3{
+    padding-top: 50px;
+}
+.card-img-top{
+    padding: 40px;
+}
